@@ -1,0 +1,59 @@
+<profileData>
+<personaldetails>
+	<name>""</name>
+	<dateOfBirth>MM-dd-yyyy</dateOfBirth>
+	<address>""</address>
+	<phoneNumber>####</phoneNumber>
+</personaldetails>
+<pasteducation>
+	<schoolSecondary>
+		<name>""</name>
+		<yearStart>MM-dd-yyyy</yearStart>
+		<yearEnd>MM-dd-yyyy</yearEnd>
+		<percentage>00.00</percentage>
+	</schoolSecondary>
+	<schoolHSecondary>
+		<name>""</name>
+		<yearStart>MM-dd-yyyy</yearStart>
+		<yearEnd>MM-dd-yyyy</yearEnd>
+		<percentage>00.00</percentage>
+	</schoolHSecondary>
+</pasteducation>
+<collageEducation>
+	<UG>
+		<name>""</name>
+		<yearStart>MM-dd-yyyy</yearStart>
+		<yearEnd>MM-dd-yyyy</yearEnd>
+		<sessionMode>
+			<mode>#</mode>
+			<sem1>0.00</sem1>
+			.
+			.
+			.
+			<sem[yeardiff*n]>0.00</sem[yeardiff*n]>
+		</sessionMode>
+	</UG>
+	<PG>
+		<name>""</name>
+		<yearStart>MM-dd-yyyy</yearStart>
+		<yearEnd>MM-dd-yyyy</yearEnd>
+		<sessionMode>
+			<mode>#</mode>
+			<sem1>0.00</sem1>
+			.
+			.
+			.
+			<sem[yeardiff*n]>0.00</sem[yeardiff*n]>
+		</sessionMode>
+	</PG>
+</collageEducation>
+<extras>
+	<about>""</about> (comma separated strings)
+	<skills>["","",....,""]</skills> (comma separated string)
+	<certifications>["","",....,""]</certifications> (comma separated strings)
+	<languages>["","",....,""]</languages> (comma separated string)
+	<achievements>["","",....,""]</achievements> (comma separated encryted strings)
+	<extraCurricular>["","",....,""]</extraCurricular> (comma separate encryted strings)
+	<workEx>["","",...,""]</workEx> (comma separated encryted strings)
+</extras>
+</profileData>

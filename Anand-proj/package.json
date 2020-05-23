@@ -1,0 +1,16 @@
+{
+  "name": "Anand-proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Profile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypt": "0.0.2",
+    "xml2js": "^0.4.23"
+  }
+}
