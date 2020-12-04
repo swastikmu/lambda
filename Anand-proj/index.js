@@ -23,11 +23,6 @@ app.post('/post', (req, res) => {
     let pastEdu = JSON.stringify(decodedData(PastEducation));
 
 
-    // var result1 = convert.xml2json(pastEduText, { compact: true, spaces: 4 });
-    // var result2 = convert.xml2json(pastEduText, { compact: false, spaces: 4 });
-    // console.log(result1, '\n', result2);
-
-
     let clgEdu = decodeURIComponent(CollageEducation);
     let buff1 = Buffer.from(clgEdu, 'base64');
     let clgEduText = buff1.toString('utf-8');
