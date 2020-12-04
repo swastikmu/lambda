@@ -48,18 +48,7 @@ app.post('/post', (req, res) => {
     // let string = JSON.stringify(pastEduText);
 
     console.log('School Education :::', pastEdu);
-    // console.log('college education:::', clgEduText);
-    // console.log('Name:::', Name);
-    // console.log('D.O.B:::', DateOfBirth);
-    // console.log('college education:::', Address);
-    // console.log('PhoneNo:::', PhoneNo);
-    // console.log('About:::', About);
-    // console.log('Skills:::', Skills);
-    // console.log('Certifications:::', Certifications);
-    // console.log('Languages:::', Languages);
-    // console.log('Achievements:::', achieveText);
-    // console.log('ExtraCurricular:::', cextraText);
-    // console.log('WorkExperience:::', workText);
+
 
 
     res.send("done")
